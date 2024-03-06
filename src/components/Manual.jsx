@@ -2,7 +2,7 @@ export default function Manual(){
     return (
         <section id="about" className="py-20 font-second flex items-center flex-col relative">
             <div className="absolute left-0 bottom-0 bg-gradient-to-r from-[#85E6FF]/20">
-                <img src="/Kiri.png" className=" w-[180px]" alt=""/>
+                <img src="/Kiri.png" className=" w-[210px]" alt=""/>
             </div>
             <div className="text-center w-[800px] m-auto flex flex-col justify-center items-center">
                 <p className="text-[#85E6FF] font-extrabold text-[30px] bg-gradient-to-r from-black via-[#85E6FF]/50 w-max">Download Manual</p>
@@ -19,9 +19,9 @@ export default function Manual(){
                             <p className="text-white font-extrabold">Digital X Manual</p>
                         </div>
                     </div>
-                    <div className="mt-8">
+                    <div className="mt-8 text-left">
                         <img src="/Manual.png" alt="" />
-                        <img src="/ManualText.png" alt="" />
+                        <img src="/ManualText.png" alt="" className="mt-2" />
                         <p className="text-sm text-white/60 text-left">As the game was intended to be played, the Manual is for COSMOLINK'S eyes only. The Mechanic is not allowed to view the Manual</p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Manual(){
 
 
             <div className="absolute right-0 bottom-0 bg-gradient-to-l from-[#85E6FF]/20">
-                <img src="/Kiri.png" className="w-[180px] scale-[-1]" alt=""/>
+                <img src="/Kiri.png" className="w-[210px] scale-[-1]" alt=""/>
             </div>
         </section>
     )
