@@ -1,7 +1,7 @@
 export default function Hero(){
     return (
         <>
-            <section className="pb-20 py-14 px-32 bg-right bg-contain bg-no-repeat h-screen bg-gradient-to-r from-black from-0% to-75% via-black via-30% relative z-10">
+            <section className="pb-20 py-14 lg:px-[10%] bg-right bg-contain bg-no-repeat h-screen bg-gradient-to-r from-black from-0% to-75% via-black via-30% relative z-10">
                 <div className="flex flex-col justify-center h-[91.5vh]">
                     <div className="flex gap-10">
                         <img src="/BestAppGame.png" className="w-[130px]" alt="" />

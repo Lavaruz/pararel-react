@@ -1,6 +1,6 @@
 export default function Navbar(){
     return (
-        <section className="px-10 lg:px-32 w-full navbar flex justify-between items-start fixed py-8 top-0 z-20 bg-gradient-to-b from-black via-black">
+        <section className="lg:px-[10%] w-full navbar flex justify-between items-start fixed py-8 top-0 z-20 bg-gradient-to-b from-black via-black">
             <img src="/Brand.svg" className="w-[20%]" alt=""/>
             <div className="hidden lg:flex items-center">
                 <div style={{backgroundImage: "url('/Navbar-Kiri.png')"}} className="flex items-center gap-20 text-white py-2 px-10 bg-cover">

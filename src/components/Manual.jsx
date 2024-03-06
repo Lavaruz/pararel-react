@@ -1,6 +1,6 @@
 export default function Manual(){
     return (
-        <section id="about" className="py-20 font-second flex items-center flex-col relative">
+        <section id="manual" className="py-20 font-second flex items-center flex-col relative">
             <div className="absolute left-0 bottom-0 bg-gradient-to-r from-[#85E6FF]/20">
                 <img src="/Kiri.png" className=" w-[210px]" alt=""/>
             </div>

@@ -1,6 +1,6 @@
 export default function Action(){
     return (
-        <section id="manual" className="min-h-screen px-32 py-20 pb-28">
+        <section id="about" className="min-h-screen lg:px-[10%] py-20 pb-28">
             {/* <div className="bg-gradient-to-b from-[#85E6FF]/10 via-[#85E6FF]/30 via-50% to-[#85E6FF]/10 border-2 border-[#85E6FF]/50"></div> */}
             <div className="p-[3px] rounded-lg bg-gradient-to-tr from-[#85E6FF] via-[#85E6FF]/20 to-[#85E6FF]">
                 <div className="py-10 px-14 bg-black bg-gradient-to-b from-[#85E6FF]/10 via-[#85E6FF]/30 via-50% to-[#85E6FF]/10 rounded-lg">

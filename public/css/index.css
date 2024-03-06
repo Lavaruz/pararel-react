@@ -5,3 +5,5 @@
 .font-second{
     font-family: "JetBrains Mono", monospace;
 }
+
+html{scroll-behavior:smooth}
