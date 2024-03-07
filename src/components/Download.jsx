@@ -1,10 +1,10 @@
 export default function Download(){
     return (
-        <section id="download" style={{backgroundImage: "url('GetIt.png')"}} className="py-20 px-[10%] lg:px-32 w-full bg-cover h-[90vh] bg-no-repeat">
+        <section id="download" style={{backgroundImage: "url('GetIt.png')"}} className="py-20 px-[10%] lg:px-32 w-full bg-cover lg:h-[90vh] bg-no-repeat">
             <div className="flex justify-center">
                 <img src="/GETITNOW.png" className="w-full lg:w-[500px]" alt=""/>
             </div>
-            <div className="grid grid-cols-2 mt-20 w-[60vw] m-auto lg:gap-20">
+            <div className="grid grid-cols-2 mt-10 lg:mt-20 w-[60vw] m-auto lg:gap-20">
                 <div className="col-span-2 lg:col-span-1 flex flex-col gap-6">
                     <p className="text-white font-extrabold text-xl text-center">PC</p>
                     <div className="cursor-pointer p-[3px] rounded-lg bg-gradient-to-r from-[#85E6FF]/80 via-[#85E6FF]/10 via-50% to-[#85E6FF]/80 w-full">
