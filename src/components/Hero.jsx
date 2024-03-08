@@ -1,8 +1,8 @@
 export default function Hero(){
     return (
         <>
-            <section className="pb-20 py-14 px-[10%] h-screen lg:bg-gradient-to-r lg:from-black from-black lg:from-0% lg:to-75% to-50% via-black lg:via-30% relative z-10">
-                <div className="flex flex-col lg:justify-center mt-32 lg:mt-0 h-[91.5vh] relative z-10">
+            <section className="pb-20 py-14 lg:px-0 px-[10%] h-screen lg:bg-gradient-to-r lg:from-black from-black lg:from-0% lg:to-75% to-50% via-black lg:via-30% relative z-10">
+                <div className="lg:w-[1135px] m-auto flex flex-col lg:justify-center mt-32 lg:mt-0 h-[91.5vh] relative z-10">
                     <div className="flex justify-center lg:justify-start gap-10">
                         <img src="/BestAppGame.png" className="w-[130px]" alt="" />
                         <img src="/2ndPrize.png" className="w-[130px]" alt="" />
