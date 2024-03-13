@@ -1,6 +1,6 @@
 export default function Download(){
     return (
-        <section id="download" style={{backgroundImage: "url('GetIt.png')"}} className="py-20 px-[10%] lg:px-32 w-full bg-cover lg:h-[90vh] bg-no-repeat">
+        <section id="download" style={{backgroundImage: "url('GetIt.png')"}} className="py-20 px-[10%] bg-cover lg:h-[90vh] bg-no-repeat">
             <div className="lg:w-[1135px] m-auto">
                 <div className="flex justify-center">
                     <img src="/GETITNOW.png" className="w-full lg:w-[500px]" alt=""/>

@@ -17,7 +17,7 @@ export default function Action(){
                                     <p className="text-[#85E6FF]/50 text-sm mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                             </div>
-                            <div className="lg:col-span-5 col-span-8 bg-[#8D8D8D] rounded-xl flex items-center justify-center lg:h-full h-[200px]">Foto Suasana</div>
+                            <div className="lg:col-span-5 col-span-8 bg-[#8D8D8D] rounded-xl flex items-center justify-center lg:h-full h-[200px]"></div>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,6 @@ function App() {
         <Warning/>
         <Manual/>
         <Download/>
-        <Contact/>
         <Footer/>
     </>
   )
