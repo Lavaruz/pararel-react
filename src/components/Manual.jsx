@@ -10,7 +10,7 @@ export default function Manual(){
                         <div className="order-last lg:order-first col-span-2 lg:col-span-1 flex flex-col h-full justify-center gap-10">
                             <div style={{backgroundImage: "url('/Manual-Top.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
                                 <img src="/Print.svg" alt="" />
-                                <p className="text-white font-extrabold">Printable X Manual</p>
+                                <a href="./pdf-print.html" target="_blank" className="text-white font-extrabold">Printable X Manual</a>
                             </div>
                             <div style={{backgroundImage: "url('/Manual-Bottom.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
                                 <img src="/Phone.svg" alt="" />

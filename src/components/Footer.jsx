@@ -4,10 +4,10 @@ export default function Footer(){
             <div className="">
                 <div className="grid grid-cols-10 gap-10">
                     <div className="col-span-2">
-                        <a href="">Terms of Service</a>
+                        <a href="#">Terms of Service</a>
                     </div>
                     <div className="col-span-6">
-                        <a href="">Privacy Policy</a>
+                        <a href="https://www.termsfeed.com/live/39a6e853-6e3e-423b-b831-615512fa44c5" target="_blank">Privacy Policy</a>
                     </div>
                     <div className="col-span-2">
                         <p></p>
