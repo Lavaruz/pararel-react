@@ -18,7 +18,7 @@ export default function Footer(){
                 <div className="grid grid-cols-10 items-center gap-10 mt-3">
                     <div className="col-span-2">
                         <div className="">
-                            <img src="/Festivo.png" alt="" />
+                            <img src="/img/Festivo.png" alt="" />
                             <a href="">www.festivo.co</a>
                         </div>
                     </div>

@@ -8,18 +8,18 @@ export default function Manual(){
                     </div>
                     <div className="grid grid-cols-2 justify-between gap-10">
                         <div className="order-last lg:order-first col-span-2 lg:col-span-1 flex flex-col h-full justify-center gap-10">
-                            <div style={{backgroundImage: "url('/Manual-Top.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
-                                <img src="/Print.svg" alt="" />
+                            <div style={{backgroundImage: "url('/img/Manual-Top.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
+                                <img src="/img/Print.svg" alt="" />
                                 <a href="/manual-print" target="_blank" className="text-white font-extrabold">Printable X Manual</a>
                             </div>
-                            <div style={{backgroundImage: "url('/Manual-Bottom.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
-                                <img src="/Phone.svg" alt="" />
+                            <div style={{backgroundImage: "url('/img/Manual-Bottom.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
+                                <img src="/img/Phone.svg" alt="" />
                                 <p className="text-white font-extrabold">Digital X Manual</p>
                             </div>
                         </div>
                         <div className="col-span-2 lg:col-span-1 mt-8 text-left">
-                            <img src="/Manual.png" className="w-[80%] lg:w-full m-auto" alt="" />
-                            <img src="/ManualText.png" alt="" className="mt-2 w-[90%] lg:w-full m-auto" />
+                            <img src="/img/Manual.png" className="w-[80%] lg:w-full m-auto" alt="" />
+                            <img src="/img/ManualText.png" alt="" className="mt-2 w-[90%] lg:w-full m-auto" />
                             <p className="lg:text-sm text-base text-white/60 text-center lg:text-left">As the game was intended to be played, the Manual is for COSMOLINK'S eyes only. The Mechanic is not allowed to view the Manual</p>
                         </div>
                     </div>
@@ -28,10 +28,10 @@ export default function Manual(){
 
 
                 <div className="hidden lg:block absolute left-0 bottom-0 bg-gradient-to-r from-[#85E6FF]/10">
-                    <img src="/Kiri.png" className=" w-[210px]" alt=""/>
+                    <img src="/img/Kiri.png" className=" w-[210px]" alt=""/>
                 </div>
                 <div className="hidden lg:block absolute right-0 bottom-0 bg-gradient-to-l from-[#85E6FF]/10">
-                    <img src="/Kiri.png" className="w-[210px] scale-[-1]" alt=""/>
+                    <img src="/img/Kiri.png" className="w-[210px] scale-[-1]" alt=""/>
                 </div>
             </div>
         </section>
