@@ -8,8 +8,7 @@ export default function Hero(){
                         <img src="/img/2ndPrize.png" className="w-[130px]" alt="" />
                     </div>
                     <div className="lg:w-[560px] mt-10 text-center lg:text-left">
-                        <img src="/img/Hero-Pararel.svg" alt="" className="lg:hidden m-auto mb-4" />
-                        <p className="text-xl lg:text-4xl text-white font-extrabold">Elevate Your Squad Vibes With the Coolest VR Puzzle Co-Op!</p>
+                        <p className="text-2xl lg:text-4xl text-white font-extrabold">Elevate Your Squad Vibes With the Coolest VR Puzzle Co-Op!</p>
                         <a href="#download">
                             <button className="bg-[#072834]/40 border-2 border-[#85E6FF] shadow-[0_0_60px_-18px_rgba(133,230,255,1)] rounded-xl px-4 lg:pe-28 pe-14 py-2 mt-8 font-bold text-xl text-[#85E6FF]">AVAILABLE ON .....</button>
                         </a>
@@ -18,8 +17,11 @@ export default function Hero(){
                         <img src="/img/Carousel.png" className="rounded-lg" width="200" alt=""/>
                     </div>
                 </div>
-                <div className="absolute lg:top-0 bottom-0 right-0 lg:left-0">
+                <div className="hidden lg:block absolute lg:top-0 bottom-0 right-0 lg:left-0">
                     <img src="/img/Hero.png" alt="" className="lg:h-screen h-[50vh] w-full object-cover"/>
+                </div>
+                <div className="lg:hidden absolute left-0 bottom-0 right-0">
+                    <img src="/img/Hero-Mobile.png" alt="" className="lg:h-screen h-[50vh] w-full object-cover"/>
                 </div>
             </section>
         </>

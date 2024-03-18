@@ -7,3 +7,20 @@
 }
 
 html{scroll-behavior:smooth}
+
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.fadeOut {
+    animation: fadeOut 2s ease-in-out forwards;
+}
+.fadeOutBlur {
+    animation: fadeOut 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
