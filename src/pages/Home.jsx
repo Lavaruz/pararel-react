@@ -34,7 +34,7 @@ export default function Home(){
             {isPlayed !== "played" && 
             <>
                 <div className={`fixed z-50 left-0 right-0 justify-center bg-black flex ${isVideoEnded ? 'fadeOut' : ''}`} onAnimationEnd={handleAnimationEnd}>
-                    <video onCanPlay={setPlayBack} ref={videoRef} className="h-screen" id="video1" height="100" autoPlay muted onEnded={handleVideoEnd}>
+                    <video onCanPlay={setPlayBack} ref={videoRef} className="h-screen" id="video1" height="100" playsinline autoPlay muted onEnded={handleVideoEnd}>
                         <source src="/video/LoadingScreen2.mp4" />
                         Your browser does not support HTML5 video.
                     </video>
