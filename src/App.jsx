@@ -1,28 +1,17 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Trailer from './components/Trailer'
-import About from './components/About'
-import Warning from './components/Warning'
-import Manual from './components/Manual'
-import Download from './components/Download'
-import Footer from './components/Footer'
-import Carousel from './components/Carousel'
+import Home from './pages/Home'
+import PrintableManual from './pages/PrintableManual'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 function App() {
 
   return (
-    <>
-        <Navbar/>
-        <Hero/>
-        <Carousel/>
-        <Trailer/>
-        <About/>
-        <Warning/>
-        <Manual/>
-        <Download/>
-        <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/manual-print' element={<PrintableManual/>}/>
+      </Routes>
+    </Router>
   )
 }
 
