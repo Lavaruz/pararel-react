@@ -42,12 +42,20 @@ export default function Navbar(){
 
 
             <div id="navbar-burger" className="hidden flex mt-10 relative px-[10%]">
-                <img src="/img/Navbar-Burger.png" className="w-full absolute left-0 right-0" alt="" />
-                <div className="flex flex-col items-center justify-center text-white absolute z-10 left-0 right-0 mt-14 text-2xl gap-5 font-bold">
+                <div className="overflow-hidden bg-gradient-to-b from-black via-black to-[#85E6FF]/20 bg-black flex flex-col p-8 pb-10 rounded-xl border border-white/60 justify-center text-white absolute z-10 left-0 right-0 text-2xl gap-10 font-bold">
                     <a href="#about">About</a>
                     <a href="#manual">X Manual</a>
                     <a href="#contact">Contact Us</a>
-                    <a href="#download">Get It Now</a>
+                    <a href="#download" className="mt-10 relative">
+                        <div className="flex justify-center items-center w-full relative z-10">
+                            <img src="/img/Navbar-Burger-Download.png" alt="" className="absolute left-0 right-0 w-full h-[45px]" />
+                            <p className="text-xl font-bold text-[#000] relative z-20">GET IT NOW</p>
+
+                        </div>
+                    </a>
+                    <div className="absolute left-0 right-0 bottom-0 z-0">
+                        <img src="/img/Navbar-BG.png" className="w-full" alt=""/>
+                    </div>
                 </div>
             </div>
         </section>

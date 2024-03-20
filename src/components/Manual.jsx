@@ -8,14 +8,14 @@ export default function Manual(){
                     </div>
                     <div className="grid grid-cols-2 justify-between gap-10">
                         <div className="order-last lg:order-first col-span-2 lg:col-span-1 flex flex-col h-full justify-center gap-10">
-                            <div style={{backgroundImage: "url('/img/Manual-Top.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
+                            <a href="/pdf/Manual-Print.pdf" target="_blank" style={{backgroundImage: "url('/img/Manual-Top.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
                                 <img src="/img/Print.svg" alt="" />
-                                <a href="/pdf/Manual-Print.pdf" target="_blank" className="text-white font-extrabold">Printable X Manual</a>
-                            </div>
-                            <div style={{backgroundImage: "url('/img/Manual-Bottom.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
+                                <p className="text-white font-extrabold">Printable X Manual</p>
+                            </a>
+                            <a href="/pdf/Manual-Digital.pdf" target="_blank" style={{backgroundImage: "url('/img/Manual-Bottom.png')"}} className="lg:scale-[1] flex items-center gap-4 cursor-pointer bg-contain bg-no-repeat p-4 pb-5 justify-center bg-center">
                                 <img src="/img/Phone.svg" alt="" />
-                                <a href="/pdf/Manual-Digital.pdf" target="_blank" className="text-white font-extrabold">Digital X Manual</a>
-                            </div>
+                                <p className="text-white font-extrabold">Digital X Manual</p>
+                            </a>
                         </div>
                         <div className="col-span-2 lg:col-span-1 mt-8 text-left">
                             <img src="/img/Manual.png" className="w-[80%] lg:w-full m-auto" alt="" />

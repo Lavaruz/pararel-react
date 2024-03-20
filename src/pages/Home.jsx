@@ -12,9 +12,8 @@ import { useRef } from "react"
 
 export default function Home(){
     const [isVideoEnded, setIsVideoEnded] = useState(false);
-    const videoRef = useRef()
 
-    const isPlayed = localStorage.getItem("loadingScreen")
+    const isPlayed = true//localStorage.getItem("loadingScreen")
 
     function handleVideoEnd(e) {
         setIsVideoEnded(true);
@@ -25,17 +24,13 @@ export default function Home(){
         localStorage.setItem("loadingScreen", "played")
     }
 
-    const setPlayBack = () => {
-        videoRef.current.playbackRate = 1.5;
-    };
-
     return(
         <>
             {isPlayed !== "played" && 
             <>
                 <div className={`fixed z-50 left-0 right-0 justify-center bg-black flex ${isVideoEnded ? 'fadeOut' : ''}`} onAnimationEnd={handleAnimationEnd}>
-                    <video onCanPlay={setPlayBack} ref={videoRef} className="h-screen" id="video1" height="100" playsinline autoPlay muted onEnded={handleVideoEnd}>
-                        <source src="/video/LoadingScreen2.mp4" />
+                    <video className="h-screen" id="video1" height="100" playsinline autoPlay muted onEnded={handleVideoEnd}>
+                        <source src="/video/LoadingScreen.mp4" />
                         Your browser does not support HTML5 video.
                     </video>
                 </div>

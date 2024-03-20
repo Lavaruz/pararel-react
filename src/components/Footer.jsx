@@ -61,7 +61,9 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-            <div className="">
+
+            {/* MOBILE */}
+            <div className="lg:hidden">
                 <div className="flex flex-col items-center gap-5">
                     <p className="text-xl">Socials</p>
                     <div className="flex gap-10">

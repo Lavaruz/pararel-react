@@ -10,7 +10,7 @@ export default function Hero(){
                     <div className="lg:w-[560px] mt-10 text-center lg:text-left">
                         <p className="text-2xl lg:text-4xl text-white font-extrabold">Elevate Your Squad Vibes With the Coolest VR Puzzle Co-Op!</p>
                         <a href="#download">
-                            <button className="bg-[#072834]/40 border-2 border-[#85E6FF] shadow-[0_0_60px_-18px_rgba(133,230,255,1)] rounded-xl px-4 lg:pe-28 pe-14 py-2 mt-8 font-bold text-xl text-[#85E6FF]">AVAILABLE ON</button>
+                            <button className="bg-[#072834]/40 border-2 border-[#85E6FF] shadow-[0_0_60px_-18px_rgba(133,230,255,1)] rounded-xl px-4 lg:pe-28 pe-14 py-2 mt-8 font-bold text-sm lg:text-xl text-[#85E6FF]">AVAILABLE ON .....</button>
                         </a>
                     </div>
                     <div className="hidden lg:block mt-8">
