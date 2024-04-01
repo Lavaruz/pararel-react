@@ -17,8 +17,8 @@ export default function Hero(){
                         <img src="/img/Carousel.png" className="rounded-lg" width="200" alt=""/>
                     </div>
                 </div>
-                <div className="hidden lg:block absolute lg:top-0 bottom-0 right-0 lg:left-0">
-                    <img src="/img/Hero.png" alt="" className="lg:h-screen h-[50vh] w-full object-cover"/>
+                <div className="hidden lg:block absolute top-0 bottom-0 right-0 left-0">
+                    <img src="/img/Hero-Desktop.png" alt="" className="lg:h-screen h-[90vh] w-full object-cover"/>
                 </div>
                 <div className="lg:hidden absolute left-0 bottom-0 right-0">
                     <img src="/img/Hero-Mobile.png" alt="" className="lg:h-screen h-[50vh] w-full object-cover"/>

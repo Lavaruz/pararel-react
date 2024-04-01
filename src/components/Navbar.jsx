@@ -17,8 +17,8 @@ export default function Navbar(){
     }
 
     return (
-        <section className="px-[10%] w-full navbar fixed top-0 left-1/2 transform -translate-x-1/2 py-8 top-0 z-20 bg-gradient-to-b from-black via-black">
-            <div className="lg:w-[1135px] flex justify-between items-center">
+        <section className="lg:w-[1135px] px-[10%] lg:px-0 mx-auto mx-auto w-full navbar fixed top-0 left-1/2 transform -translate-x-1/2 py-8 top-0 z-20 bg-gradient-to-b from-black via-black">
+            <div className="flex justify-between items-center">
                 <p className="text-white/60 text-lg lg:hidden">EN</p>
                 <img src="/img/Hero-Pararel.svg" alt="" className="lg:w-[23%] w-[60%]"/>
                 <svg className="lg:hidden cursor-pointer" onClick={handleBurger} width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
