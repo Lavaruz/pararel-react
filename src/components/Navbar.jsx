@@ -21,11 +21,13 @@ export default function Navbar(){
             <div className="lg:w-[1135px] mx-auto flex justify-between items-center">
                 <p className="text-white/60 text-lg lg:hidden">EN</p>
                 <img src="/img/Hero-Pararel.svg" alt="" className="lg:w-[23%] w-[60%]"/>
-                <svg className="lg:hidden cursor-pointer" onClick={handleBurger} width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect y="0.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
-                    <rect y="7.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
-                    <rect y="14.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
-                </svg>
+                <button onClick={handleBurger}>    
+                    <svg className="lg:hidden cursor-pointer" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="0.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
+                        <rect y="7.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
+                        <rect y="14.5" width="22" height="3" rx="1" fill="#8D8D8D"/>
+                    </svg>
+                </button>
                 <div className="hidden lg:flex items-center">
                     <div style={{backgroundImage: "url('/img/Navbar-Kiri.png')"}} className="flex items-center gap-20 text-white py-3 px-10 bg-cover">
                         <a href="#about" className="text-sm font-bold hover:text-[#FF7204] duration-200">About</a>
