@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Invasible';
+  src: url('../fonts/invasible-invasible-regular-400.ttf');
+}
+
+.font-third{
+  font-family: "Invasible";
+}
+
 .font-second{
-    font-family: "JetBrains Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 html{scroll-behavior:smooth}

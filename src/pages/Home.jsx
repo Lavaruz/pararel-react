@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
-import Carousel from "../components/Carousel"
+import CarouselPage from "../components/CarouselPage"
 import Trailer from "../components/Trailer"
 import About from "../components/About"
 import Warning from "../components/Warning"
@@ -46,7 +46,7 @@ export default function Home(){
             }
             <Navbar/>
             <Hero/>
-            <Carousel/>
+            <CarouselPage/>
             <Trailer/>
             <About/>
             <Warning/>
